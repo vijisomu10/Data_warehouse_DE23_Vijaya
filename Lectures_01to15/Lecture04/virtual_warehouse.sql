@@ -32,3 +32,4 @@ AUTO_RESUME = TRUE
 INITIALLY_SUSPENDED = TRUE
 COMMENT = "demo_wh_trial created through worksheet";
 
+Drop warehouse demo_wh_trial;
