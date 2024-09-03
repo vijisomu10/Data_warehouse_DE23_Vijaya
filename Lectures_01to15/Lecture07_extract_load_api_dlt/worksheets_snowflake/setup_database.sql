@@ -1,0 +1,13 @@
+USE ROLE SYSADMIN;
+
+CREATE DATABASE IF NOT EXISTS job_ads;
+
+CREATE SCHEMA IF NOT EXISTS job_ads.staging;
+
+
+
+-- Set up host
+USE ROLE ORGADMIN;
+
+SHOW ACCOUNTS;
+--ef16375.west-europe.azure
